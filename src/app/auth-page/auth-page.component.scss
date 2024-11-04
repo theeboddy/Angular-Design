@@ -1,0 +1,50 @@
+.auth {
+  display: flex;
+  align-items: center;
+}
+
+.auth-image {
+  width: 50vw;
+  height: 100vh;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.auth-container {
+  padding: 5%;
+
+  &-icon {
+    width: 100px;
+    margin-bottom: 20px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+  }
+}
+
+.login-form {
+  width: 400px;
+  .field {
+    width: 100%;
+  }
+}
+
+.button__red {
+  font-weight: 300;
+  font-size: 1.6rem;
+  padding: 10px 50px;
+  background: #d82337;
+  color: #fff;
+  border: none;
+}
